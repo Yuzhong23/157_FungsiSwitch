@@ -70,6 +70,10 @@ int main()
 				break;
 			case 5 :
 				break;
+			default:
+				cout << "Pilihan tidak valid" << endl;
+				system("pause");
+				break;
 
 		}
 	}
