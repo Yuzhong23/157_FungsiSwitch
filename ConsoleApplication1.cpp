@@ -9,5 +9,11 @@ void prosedurluas(int p, int l) {
 
 
 int main() {
+	int panjang, lebar;
+	cout << "Masukan panjang :";
+	cin >> panjang;
+	cout << "Masukan lebar :";
+	cin >> lebar;
+
 
 }
