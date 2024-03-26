@@ -45,6 +45,15 @@ int main()
 		cout << "Keluar" << endl;
 		cout << "Masukan pilihan" << endl;
 		cin >> pilihan;
+
+		switch (pilihan)
+		{
+			case 1:
+				inputdata();
+				cout << "\nHasil penjumlahan : " << penjumlahan(bilangan1, bilangan2) << endl;
+				system("pause");
+				break;
+		}
 	}
 
 }
