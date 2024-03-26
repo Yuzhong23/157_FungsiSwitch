@@ -36,7 +36,15 @@ int main()
 	int pilihan;
 	do
 	{
-		
+		system("CLC");
+		cout << "Menu kalkulator sederhana" << endl;
+		cout << "1. Penjumlahan" << endl;
+		cout << "2. Pengurangan" << endl;
+		cout << "3. Perkalian" << endl;
+		cout << "4. Pembagian" << endl;
+		cout << "Keluar" << endl;
+		cout << "Masukan pilihan" << endl;
+		cin >> pilihan;
 	}
 
 }
