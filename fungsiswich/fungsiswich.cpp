@@ -74,8 +74,8 @@ int main()
 				cout << "Pilihan tidak valid" << endl;
 				system("pause");
 				break;
-
 		}
-	}
+	} while (pilihan != 5); // != adalah tidak sama dengan.
 
+	return 0;
 }
