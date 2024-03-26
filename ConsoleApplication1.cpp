@@ -15,5 +15,8 @@ int main() {
 	cout << "Masukan lebar :";
 	cin >> lebar;
 
+	prosedurluas(luas, lebar);
+	cout << "Luas persegi panjang: " << luas << endl;
 
+	return 0;
 }
